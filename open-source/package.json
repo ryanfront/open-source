@@ -1,0 +1,27 @@
+{
+  "name": "open-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2:start": "pm2 start index.js --name open-source",
+    "pm2:stop": "pm2 stop open-source",
+    "pm2:restart": "pm2 restart open-source",
+    "pm2:logs": "pm2 logs open-source",
+    "pm2:delete": "pm2 delete open-source",
+    "pm2:save": "pm2 save",
+    "pm2:startup": "pm2 startup"
+  },
+  "keywords": [
+    "open-source",
+    "telegram-bot",
+    "xodobyte"
+  ],
+  "author": "xodobyte",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "telegraf": "^4.12.0"
+  }
+}
